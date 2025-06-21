@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 10px;
+}
+
+input,
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+input {
+    background-color: black;
+    color: white;
+}
+
+button {
+    background-color: silver;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-family: poppins;
+    font-weight: bold;
+    background: #e3f2fd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
